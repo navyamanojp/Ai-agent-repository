@@ -28,7 +28,7 @@ print("type 'exit' to stop ")
 
 while True:
     user_input=input("\n You :")
-    if user_input().lower() == 'exit' :
+    if user_input.lower() == 'exit' :
         print("goodbye")
         break
     ai_response = run_chain(user_input)
